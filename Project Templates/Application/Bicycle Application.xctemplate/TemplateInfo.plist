@@ -9,7 +9,73 @@
 	<key>Concrete</key>
 	<true/>
 	<key>Definitions</key>
-	<dict/>
+	<dict>
+		<key>Classes</key>
+		<dict>
+			<key>Path</key>
+			<string>Classes</string>
+		</dict>
+		<key>Classes/UI/ViewControllers/___VARIABLE_classPrefix:identifier___ViewController.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>UI</string>
+				<string>ViewControllers</string>
+			</array>
+			<key>Path</key>
+			<string>BaseViewController.h</string>
+		</dict>
+		<key>Classes/UI/ViewControllers/___VARIABLE_classPrefix:identifier___ViewController.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>UI</string>
+				<string>ViewControllers</string>
+			</array>
+			<key>Path</key>
+			<string>BaseViewController.m</string>
+		</dict>
+		<key>Classes/Helpers/Logger/___VARIABLE_classPrefix:identifier___Logger.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Helpers</string>
+				<string>Logger</string>
+			</array>
+			<key>Path</key>
+			<string>Logger.h</string>
+		</dict>
+		<key>Classes/Helpers/Logger/___VARIABLE_classPrefix:identifier___Logger.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Helpers</string>
+				<string>Logger</string>
+			</array>
+			<key>Path</key>
+			<string>Logger.m</string>
+		</dict>
+		<key>___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:is4inchesRetina</key>
+		<string>@property (nonatomic) BOOL is4inchesRetina;
+</string>
+		<key>___VARIABLE_classPrefix:identifier___AppDelegate.m:is4inchesRetina</key>
+		<dict>
+			<key>Beginning</key>
+			<string>- (BOOL)is4inchesRetina {
+	//Check if application is running on 4-inches displayed device (i.e. iPhone 5 or iPod Touch 5th gen)
+    return self.window.bounds.size.height == 568.0f &amp;&amp; self.window.screen.scale == 2.0f;</string>
+			<key>End</key>
+			<string>}</string>
+			<key>Indent</key>
+			<integer>1</integer>
+		</dict>
+		<key>___PROJECTNAME___-Prefix.pch:import:logger</key>
+		<string>    #import &quot;___VARIABLE_classPrefix:identifier___Logger.h&quot;</string>
+	</dict>
 	<key>Description</key>
 	<string>This template provides a starting point for an application that uses a single view. It provides a view controller to manage the view, and a storyboard or nib file that contains the view.</string>
 	<key>Identifier</key>
@@ -17,7 +83,16 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
-	<array/>
+	<array>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:is4inchesRetina</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:is4inchesRetina</string>
+		<string>Classes</string>
+		<string>Classes/UI/ViewControllers/___VARIABLE_classPrefix:identifier___ViewController.h</string>
+		<string>Classes/UI/ViewControllers/___VARIABLE_classPrefix:identifier___ViewController.m</string>
+		<string>Classes/Helpers/Logger/___VARIABLE_classPrefix:identifier___Logger.h</string>
+		<string>Classes/Helpers/Logger/___VARIABLE_classPrefix:identifier___Logger.m</string>
+		<string>___PROJECTNAME___-Prefix.pch:import:logger</string>
+	</array>
 	<key>Options</key>
 	<array/>
 	<key>SortOrder</key>
