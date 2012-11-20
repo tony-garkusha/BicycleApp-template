@@ -81,6 +81,28 @@
 			<key>Path</key>
 			<string>DateHelper.m</string>
 		</dict>
+		<key>Classes/Model/User/___VARIABLE_classPrefix:identifier___User.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Model</string>
+				<string>User</string>
+			</array>
+			<key>Path</key>
+			<string>User.h</string>
+		</dict>
+		<key>Classes/Model/User/___VARIABLE_classPrefix:identifier___User.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Model</string>
+				<string>User</string>
+			</array>
+			<key>Path</key>
+			<string>User.m</string>
+		</dict>
 		<key>___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:is4inchesRetina</key>
 		<string>@property (nonatomic) BOOL is4inchesRetina;
 </string>
@@ -117,6 +139,8 @@
 		<string>Classes/Helpers/Logger/___VARIABLE_classPrefix:identifier___Logger.m</string>
 		<string>Classes/Helpers/Date/___VARIABLE_classPrefix:identifier___DateHelper.h</string>
 		<string>Classes/Helpers/Date/___VARIABLE_classPrefix:identifier___DateHelper.m</string>
+		<string>Classes/Model/User/___VARIABLE_classPrefix:identifier___User.h</string>
+		<string>Classes/Model/User/___VARIABLE_classPrefix:identifier___User.m</string>
 	</array>
 	<key>Options</key>
 	<array/>
