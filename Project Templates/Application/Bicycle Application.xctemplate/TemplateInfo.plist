@@ -15,6 +15,20 @@
 			<key>Path</key>
 			<string>Classes</string>
 		</dict>
+		<key>Classes/___VARIABLE_classPrefix:identifier___ApplicationFacade.h</key>
+		<dict>
+			<key>Group</key>
+			<string>Classes</string>
+			<key>Path</key>
+			<string>ApplicationFacade.h</string>
+		</dict>
+		<key>Classes/___VARIABLE_classPrefix:identifier___ApplicationFacade.m</key>
+		<dict>
+			<key>Group</key>
+			<string>Classes</string>
+			<key>Path</key>
+			<string>ApplicationFacade.m</string>
+		</dict>
 		<key>Classes/UI/ViewControllers/___VARIABLE_classPrefix:identifier___ViewController.h</key>
 		<dict>
 			<key>Group</key>
@@ -133,6 +147,8 @@
 		<string>___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:is4inchesRetina</string>
 		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:is4inchesRetina</string>
 		<string>Classes</string>
+		<string>Classes/___VARIABLE_classPrefix:identifier___ApplicationFacade.h</string>
+		<string>Classes/___VARIABLE_classPrefix:identifier___ApplicationFacade.m</string>
 		<string>Classes/UI/ViewControllers/___VARIABLE_classPrefix:identifier___ViewController.h</string>
 		<string>Classes/UI/ViewControllers/___VARIABLE_classPrefix:identifier___ViewController.m</string>
 		<string>Classes/Helpers/Logger/___VARIABLE_classPrefix:identifier___Logger.h</string>
