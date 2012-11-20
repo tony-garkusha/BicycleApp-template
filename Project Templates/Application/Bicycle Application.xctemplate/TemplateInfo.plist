@@ -59,6 +59,28 @@
 			<key>Path</key>
 			<string>Logger.m</string>
 		</dict>
+		<key>Classes/Helpers/Date/___VARIABLE_classPrefix:identifier___DateHelper.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Helpers</string>
+				<string>Date</string>
+			</array>
+			<key>Path</key>
+			<string>DateHelper.h</string>
+		</dict>
+		<key>Classes/Helpers/Date/___VARIABLE_classPrefix:identifier___DateHelper.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Helpers</string>
+				<string>Date</string>
+			</array>
+			<key>Path</key>
+			<string>DateHelper.m</string>
+		</dict>
 		<key>___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:is4inchesRetina</key>
 		<string>@property (nonatomic) BOOL is4inchesRetina;
 </string>
@@ -73,8 +95,9 @@
 			<key>Indent</key>
 			<integer>1</integer>
 		</dict>
-		<key>___PROJECTNAME___-Prefix.pch:import:logger</key>
-		<string>    #import &quot;___VARIABLE_classPrefix:identifier___Logger.h&quot;</string>
+		<key>___PACKAGENAME___-Prefix.pch:objC:importLogger</key>
+		<string>
+#import &quot;___VARIABLE_classPrefix:identifier___Logger.h&quot;</string>
 	</dict>
 	<key>Description</key>
 	<string>This template provides a starting point for an application that uses a single view. It provides a view controller to manage the view, and a storyboard or nib file that contains the view.</string>
@@ -84,6 +107,7 @@
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Nodes</key>
 	<array>
+		<string>___PACKAGENAME___-Prefix.pch:objC:importLogger</string>
 		<string>___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:is4inchesRetina</string>
 		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:is4inchesRetina</string>
 		<string>Classes</string>
@@ -91,7 +115,8 @@
 		<string>Classes/UI/ViewControllers/___VARIABLE_classPrefix:identifier___ViewController.m</string>
 		<string>Classes/Helpers/Logger/___VARIABLE_classPrefix:identifier___Logger.h</string>
 		<string>Classes/Helpers/Logger/___VARIABLE_classPrefix:identifier___Logger.m</string>
-		<string>___PROJECTNAME___-Prefix.pch:import:logger</string>
+		<string>Classes/Helpers/Date/___VARIABLE_classPrefix:identifier___DateHelper.h</string>
+		<string>Classes/Helpers/Date/___VARIABLE_classPrefix:identifier___DateHelper.m</string>
 	</array>
 	<key>Options</key>
 	<array/>

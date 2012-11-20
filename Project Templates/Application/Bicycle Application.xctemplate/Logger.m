@@ -5,7 +5,6 @@
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  ___COPYRIGHT___
 //
-//
 
 #import "___VARIABLE_classPrefix:identifier___Logger.h"
 #import "___VARIABLE_classPrefix:identifier___DateHelper.h"
@@ -51,7 +50,7 @@ NSString* const kLogPrefixError = @"[ERROR]";
         va_list argumentsList;
         va_start(argumentsList, format);
         NSString *logRow = [[NSString alloc] initWithFormat:realFormat arguments:argumentsList];
-        [_mutableLogString appendFormat:@"%@ %@\n", [___VARIABLE_classPrefix:identifier___DateHelper utcStringWithDate:[NSDate date]], logRow];
+        [_mutableLogString appendFormat:@"%@ %@\n", [___VARIABLE_classPrefix:identifier___DateHelper quickDateTimeString], logRow];
         NSLog(@"%@", logRow);
         va_end(argumentsList);
     }
