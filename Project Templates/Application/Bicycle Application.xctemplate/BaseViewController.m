@@ -96,6 +96,8 @@
 }
 
 - (void)viewDidUnload {
+    [self.view removeGestureRecognizer:_doubleTapRecognizer];
+    _doubleTapRecognizer = nil;
     [super viewDidUnload];
     [self unsubscribeForKeyboardEvents];
 }
