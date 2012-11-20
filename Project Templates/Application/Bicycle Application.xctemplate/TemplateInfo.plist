@@ -122,5 +122,14 @@
 	<array/>
 	<key>SortOrder</key>
 	<integer>1</integer>
+	<key>Targets</key>
+	<array>
+		<dict>
+			<key>Frameworks</key>
+			<array>
+				<string>MessageUI</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
