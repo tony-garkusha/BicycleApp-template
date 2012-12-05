@@ -6,12 +6,13 @@
 //  ___COPYRIGHT___
 //
 
-#import <Foundation/Foundation.h>
+#import "BFJSONRequestBase.h"
 
-@interface ___VARIABLE_classPrefix:identifier___User : NSObject
+@interface ___VARIABLE_classPrefix:identifier___LoginRequest : BFJSONRequestBase
 
 @property (nonatomic, copy) NSString *username;
 @property (nonatomic, copy) NSString *password;
-@property (nonatomic) BOOL isLoggedIn;
+
+- (id)initWithUsername:(NSString*)username andPassword:(NSString*)pwd;
 
 @end

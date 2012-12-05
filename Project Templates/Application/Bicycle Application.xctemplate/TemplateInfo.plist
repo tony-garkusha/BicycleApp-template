@@ -15,6 +15,11 @@
 			<key>Path</key>
 			<string>Classes</string>
 		</dict>
+		<key>Categories</key>
+		<dict>
+			<key>Path</key>
+			<string>Categories</string>
+		</dict>
 		<key>Classes/___VARIABLE_classPrefix:identifier___ApplicationFacade.h</key>
 		<dict>
 			<key>Group</key>
@@ -95,6 +100,28 @@
 			<key>Path</key>
 			<string>DateHelper.m</string>
 		</dict>
+		<key>Classes/Helpers/URL/___VARIABLE_classPrefix:identifier___URLHelper.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Helpers</string>
+				<string>URL</string>
+			</array>
+			<key>Path</key>
+			<string>URLHelper.h</string>
+		</dict>
+		<key>Classes/Helpers/URL/___VARIABLE_classPrefix:identifier___URLHelper.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Helpers</string>
+				<string>URL</string>
+			</array>
+			<key>Path</key>
+			<string>URLHelper.m</string>
+		</dict>
 		<key>Classes/Model/User/___VARIABLE_classPrefix:identifier___User.h</key>
 		<dict>
 			<key>Group</key>
@@ -117,6 +144,64 @@
 			<key>Path</key>
 			<string>User.m</string>
 		</dict>
+		<key>Classes/Network/Requests/Login/___VARIABLE_classPrefix:identifier___LoginRequest.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+				<string>Requests</string>
+				<string>Login</string>
+			</array>
+			<key>Path</key>
+			<string>LoginRequest.h</string>
+		</dict>
+		<key>Classes/Network/Requests/Login/___VARIABLE_classPrefix:identifier___LoginRequest.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+				<string>Requests</string>
+				<string>Login</string>
+			</array>
+			<key>Path</key>
+			<string>LoginRequest.m</string>
+		</dict>
+		<key>Classes/Network/Results/Login/___VARIABLE_classPrefix:identifier___LoginResult.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+				<string>Results</string>
+				<string>Login</string>
+			</array>
+			<key>Path</key>
+			<string>LoginResult.h</string>
+		</dict>
+		<key>Classes/Network/Results/Login/___VARIABLE_classPrefix:identifier___LoginResult.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+				<string>Results</string>
+				<string>Login</string>
+			</array>
+			<key>Path</key>
+			<string>LoginResult.m</string>
+		</dict>
+		<key>Classes/Network/___VARIABLE_classPrefix:identifier___RESTConstants.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+			</array>
+			<key>Path</key>
+			<string>RESTConstants.h</string>
+		</dict>
 		<key>___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:is4inchesRetina</key>
 		<string>@property (nonatomic) BOOL is4inchesRetina;
 </string>
@@ -136,6 +221,8 @@
 #import &quot;___VARIABLE_classPrefix:identifier___Logger.h&quot;</string>
 		<key>___PACKAGENAME___-Prefix.pch:objC:importFacade</key>
 		<string>#import &quot;___VARIABLE_classPrefix:identifier___ApplicationFacade.h&quot;</string>
+		<key>___PACKAGENAME___-Prefix.pch:objC:importNSErrorSimpleCreation</key>
+		<string>#import &quot;NSError+SimpleCreation.h&quot;</string>
 	</dict>
 	<key>Description</key>
 	<string>This template provides a starting point for an application that uses a single view. It provides a view controller to manage the view, and a storyboard or nib file that contains the view.</string>
@@ -147,9 +234,11 @@
 	<array>
 		<string>___PACKAGENAME___-Prefix.pch:objC:importLogger</string>
 		<string>___PACKAGENAME___-Prefix.pch:objC:importFacade</string>
+		<string>___PACKAGENAME___-Prefix.pch:objC:importNSErrorSimpleCreation</string>
 		<string>___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:is4inchesRetina</string>
 		<string>___VARIABLE_classPrefix:identifier___AppDelegate.m:is4inchesRetina</string>
 		<string>Classes</string>
+		<string>Categories</string>
 		<string>Classes/___VARIABLE_classPrefix:identifier___ApplicationFacade.h</string>
 		<string>Classes/___VARIABLE_classPrefix:identifier___ApplicationFacade.m</string>
 		<string>Classes/UI/ViewControllers/___VARIABLE_classPrefix:identifier___ViewController.h</string>
@@ -158,8 +247,15 @@
 		<string>Classes/Helpers/Logger/___VARIABLE_classPrefix:identifier___Logger.m</string>
 		<string>Classes/Helpers/Date/___VARIABLE_classPrefix:identifier___DateHelper.h</string>
 		<string>Classes/Helpers/Date/___VARIABLE_classPrefix:identifier___DateHelper.m</string>
+		<string>Classes/Helpers/URL/___VARIABLE_classPrefix:identifier___URLHelper.h</string>
+		<string>Classes/Helpers/URL/___VARIABLE_classPrefix:identifier___URLHelper.m</string>
 		<string>Classes/Model/User/___VARIABLE_classPrefix:identifier___User.h</string>
 		<string>Classes/Model/User/___VARIABLE_classPrefix:identifier___User.m</string>
+		<string>Classes/Network/Requests/Login/___VARIABLE_classPrefix:identifier___LoginRequest.h</string>
+		<string>Classes/Network/Requests/Login/___VARIABLE_classPrefix:identifier___LoginRequest.m</string>
+		<string>Classes/Network/Results/Login/___VARIABLE_classPrefix:identifier___LoginResult.h</string>
+		<string>Classes/Network/Results/Login/___VARIABLE_classPrefix:identifier___LoginResult.m</string>
+		<string>Classes/Network/___VARIABLE_classPrefix:identifier___RESTConstants.h</string>
 	</array>
 	<key>Options</key>
 	<array/>
