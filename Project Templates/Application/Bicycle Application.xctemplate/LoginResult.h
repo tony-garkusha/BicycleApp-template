@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "BFJSONSerializable.h"
 
-@interface ___VARIABLE_classPrefix:identifier___LoginResult : NSObject <JSONSerializable>
+@interface ___VARIABLE_classPrefix:identifier___LoginResult : NSObject <BFJSONSerializable>
 
 @property (nonatomic) BOOL isSucceed;
 

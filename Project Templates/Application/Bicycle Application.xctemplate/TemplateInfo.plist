@@ -144,6 +144,125 @@
 			<key>Path</key>
 			<string>User.m</string>
 		</dict>
+		<key>Classes/Network/BFNetworkManager.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Network/BFNetworkManager.h</string>
+		</dict>
+		<key>Classes/Network/BFNetworkManager.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Network/BFNetworkManager.m</string>
+		</dict>
+		<key>Classes/Network/RESTRequest/BFRESTRequestBase.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+				<string>RESTRequest</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Network/RESTRequest/BFRESTRequestBase.h</string>
+		</dict>
+		<key>Classes/Network/RESTRequest/BFRESTRequestBase.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+				<string>RESTRequest</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Network/RESTRequest/BFRESTRequestBase.m</string>
+		</dict>
+		<key>Classes/Network/RESTRequest/BFGETRequestBase.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+				<string>RESTRequest</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Network/RESTRequest/BFGETRequestBase.h</string>
+		</dict>
+		<key>Classes/Network/RESTRequest/BFGETRequestBase.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+				<string>RESTRequest</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Network/RESTRequest/BFGETRequestBase.m</string>
+		</dict>
+		<key>Classes/Network/RESTRequest/BFPOSTRequestBase.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+				<string>RESTRequest</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Network/RESTRequest/BFPOSTRequestBase.h</string>
+		</dict>
+		<key>Classes/Network/RESTRequest/BFPOSTRequestBase.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+				<string>RESTRequest</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Network/RESTRequest/BFPOSTRequestBase.m</string>
+		</dict>
+		<key>Classes/Network/RESTRequest/BFJSONRequestBase.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+				<string>RESTRequest</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Network/RESTRequest/BFJSONRequestBase.h</string>
+		</dict>
+		<key>Classes/Network/RESTRequest/BFJSONRequestBase.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+				<string>RESTRequest</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Network/RESTRequest/BFJSONRequestBase.m</string>
+		</dict>
+		<key>Classes/Network/RESTRequest/BFJSONSerializable.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Network</string>
+				<string>RESTRequest</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Network/RESTRequest/BFJSONSerializable.h</string>
+		</dict>
 		<key>Classes/Network/Requests/Login/___VARIABLE_classPrefix:identifier___LoginRequest.h</key>
 		<dict>
 			<key>Group</key>
@@ -202,6 +321,46 @@
 			<key>Path</key>
 			<string>RESTConstants.h</string>
 		</dict>
+		<key>Categories/NSError/NSError+SimpleCreation.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Categories</string>
+				<string>NSError</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Categories/NSError/NSError+SimpleCreation.h</string>
+		</dict>
+		<key>Categories/NSError/NSError+SimpleCreation.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Categories</string>
+				<string>NSError</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Categories/NSError/NSError+SimpleCreation.m</string>
+		</dict>
+		<key>Categories/NSDictionary/NSDictionary+NilChecking.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Categories</string>
+				<string>NSDictionary</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Categories/NSDictionary/NSDictionary+NilChecking.h</string>
+		</dict>
+		<key>Categories/NSDictionary/NSDictionary+NilChecking.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Categories</string>
+				<string>NSDictionary</string>
+			</array>
+			<key>Path</key>
+			<string>Bicycle Framework/Categories/NSDictionary/NSDictionary+NilChecking.m</string>
+		</dict>
 		<key>___VARIABLE_classPrefix:identifier___AppDelegate.h:methods:is4inchesRetina</key>
 		<string>@property (nonatomic) BOOL is4inchesRetina;
 </string>
@@ -251,11 +410,26 @@
 		<string>Classes/Helpers/URL/___VARIABLE_classPrefix:identifier___URLHelper.m</string>
 		<string>Classes/Model/User/___VARIABLE_classPrefix:identifier___User.h</string>
 		<string>Classes/Model/User/___VARIABLE_classPrefix:identifier___User.m</string>
+		<string>Classes/Network/BFNetworkManager.h</string>
+		<string>Classes/Network/BFNetworkManager.m</string>
+		<string>Classes/Network/RESTRequest/BFRESTRequestBase.h</string>
+		<string>Classes/Network/RESTRequest/BFRESTRequestBase.m</string>
+		<string>Classes/Network/RESTRequest/BFGETRequestBase.h</string>
+		<string>Classes/Network/RESTRequest/BFGETRequestBase.m</string>
+		<string>Classes/Network/RESTRequest/BFPOSTRequestBase.h</string>
+		<string>Classes/Network/RESTRequest/BFPOSTRequestBase.m</string>
+		<string>Classes/Network/RESTRequest/BFJSONRequestBase.h</string>
+		<string>Classes/Network/RESTRequest/BFJSONRequestBase.m</string>
+		<string>Classes/Network/RESTRequest/BFJSONSerializable.h</string>
 		<string>Classes/Network/Requests/Login/___VARIABLE_classPrefix:identifier___LoginRequest.h</string>
 		<string>Classes/Network/Requests/Login/___VARIABLE_classPrefix:identifier___LoginRequest.m</string>
 		<string>Classes/Network/Results/Login/___VARIABLE_classPrefix:identifier___LoginResult.h</string>
 		<string>Classes/Network/Results/Login/___VARIABLE_classPrefix:identifier___LoginResult.m</string>
 		<string>Classes/Network/___VARIABLE_classPrefix:identifier___RESTConstants.h</string>
+		<string>Categories/NSError/NSError+SimpleCreation.h</string>
+		<string>Categories/NSError/NSError+SimpleCreation.m</string>
+		<string>Categories/NSDictionary/NSDictionary+NilChecking.h</string>
+		<string>Categories/NSDictionary/NSDictionary+NilChecking.m</string>
 	</array>
 	<key>Options</key>
 	<array/>
