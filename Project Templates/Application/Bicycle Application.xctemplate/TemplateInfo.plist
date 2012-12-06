@@ -122,6 +122,28 @@
 			<key>Path</key>
 			<string>URLHelper.m</string>
 		</dict>
+		<key>Classes/Helpers/Keychain/___VARIABLE_classPrefix:identifier___KeychainHelper.h</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Helpers</string>
+				<string>Keychain</string>
+			</array>
+			<key>Path</key>
+			<string>KeychainHelper.h</string>
+		</dict>
+		<key>Classes/Helpers/Keychain/___VARIABLE_classPrefix:identifier___KeychainHelper.m</key>
+		<dict>
+			<key>Group</key>
+			<array>
+				<string>Classes</string>
+				<string>Helpers</string>
+				<string>Keychain</string>
+			</array>
+			<key>Path</key>
+			<string>KeychainHelper.m</string>
+		</dict>
 		<key>Classes/Model/User/___VARIABLE_classPrefix:identifier___User.h</key>
 		<dict>
 			<key>Group</key>
@@ -408,6 +430,8 @@
 		<string>Classes/Helpers/Date/___VARIABLE_classPrefix:identifier___DateHelper.m</string>
 		<string>Classes/Helpers/URL/___VARIABLE_classPrefix:identifier___URLHelper.h</string>
 		<string>Classes/Helpers/URL/___VARIABLE_classPrefix:identifier___URLHelper.m</string>
+		<string>Classes/Helpers/Keychain/___VARIABLE_classPrefix:identifier___KeychainHelper.h</string>
+		<string>Classes/Helpers/Keychain/___VARIABLE_classPrefix:identifier___KeychainHelper.m</string>
 		<string>Classes/Model/User/___VARIABLE_classPrefix:identifier___User.h</string>
 		<string>Classes/Model/User/___VARIABLE_classPrefix:identifier___User.m</string>
 		<string>Classes/Network/BFNetworkManager.h</string>
@@ -441,6 +465,7 @@
 			<key>Frameworks</key>
 			<array>
 				<string>MessageUI</string>
+				<string>Security</string>
 			</array>
 		</dict>
 	</array>
